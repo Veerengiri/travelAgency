@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelAgency</title>
+  <meta name="description"
+    content="Explore the world with our Travel Agency. We offer the best travel packages and services to make your journey unforgettable." />
+  <meta name="keywords" content="travel, travel agency, tours, vacations, holidays, travel packages" />
+  <meta name="author" content="Travel Agency" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" href="./images/travel.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg glass-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-1" href="#">
+        <img src="./images/travel.png" alt="Logo" class="d-inline-block align-text-top" width="50" height="50"
+          style="border-radius: 5px" />
+        <div class="center">Travel Agency</div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-column flex-md-row">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero vh-100 d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('./images/travel-world.jpg'); background-size: cover; background-position: center;">
+    <div class="container">
+      <h1 class="display-4">Embark on Your Dream Journey</h1>
+      <p class="lead">Experience the world like never before with our exclusive travel packages</p>
+      <a href="#packages" class="btn btn-lg btn-primary mt-3">Start Your Adventure</a>
+    </div>
+  </section>
+
+  <section id="about" class="py-5">
+    <div class="container text-center text-white">
+      <h2 class="display-4">About Us</h2>
+      <p class="lead">
+        We're not just travel agents; we're passionate explorers who love
+        sharing our wanderlust with you. We believe every journey is unique,
+        and we're dedicated to crafting personalized itineraries that
+        perfectly match your dreams. From hidden gems to iconic landmarks, let
+        us guide you on an unforgettable adventure.
+      </p>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <img src="./images/team1.jpg" alt="Team Member 1" class="img-fluid rounded-circle mb-3">
+          <h4>John Doe</h4>
+          <p>Founder & CEO</p>
+        </div>
+        <div class="col-md-4">
+          <img src="./images/team2.jpg" alt="Team Member 2" class="img-fluid rounded-circle mb-3">
+          <h4>Jane Smith</h4>
+          <p>Travel Specialist</p>
+        </div>
+        <div class="col-md-4">
+          <img src="./images/team3.jpg" alt="Team Member 3" class="img-fluid rounded-circle mb-3">
+          <h4>Emily Johnson</h4>
+          <p>Customer Support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="display-4 mb-5">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="./images/custom.jpeg" class="card-img-top" alt="Custom Packages" />
+            <div class="card-body">
+              <h5 class="card-title">Custom Packages</h5>
+              <p class="card-text">Create personalized travel packages tailored to your needs and interests.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="./images/hotel.jpeg" class="card-img-top" alt="Hotel Booking" />
+            <div class="card-body">
+              <h5 class="card-title">Hotel Booking</h5>
+              <p class="card-text">Find and book hotels that suit your preferences and budget.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="./images/flight.jpg" class="card-img-top" alt="Flight Booking" />
+            <div class="card-body">
+              <h5 class="card-title">Flight Booking</h5>
+              <p class="card-text">Book flights at the best prices with our exclusive deals and discounts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages" class="py-5">
+    <div class="container text-center text-white">
+      <h2 class="display-4 mb-5">Travel Packages</h2>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="./images/sunandsurf.jpeg" class="card-img-top" alt="Package 4" />
+            <div class="card-body">
+              <h5 class="card-title">Surf Adventure</h5>
+              <!-- <p class="card-text">$800 - 6 Nights</p> -->
+              <p class="card-text">Ride the waves and soak up the sun with our ultimate surf adventure package. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="./images/beachparadise.jpeg" class="card-img-top" alt="Package 1" />
+            <div class="card-body">
+              <h5 class="card-title">Beach Paradise</h5>
+              <!-- <p class="card-text">$500 - 3 Nights</p> -->
+              <p class="card-text">Enjoy the serene beauty of pristine beaches and crystal clear waters.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="./images/costalescape.jpeg" class="card-img-top" alt="Package 2" />
+            <div class="card-body">
+              <h5 class="card-title">Coastal Escape</h5>
+              <!-- <p class="card-text">$600 - 4 Nights</p> -->
+              <p class="card-text">Discover the charm of coastal towns, and explore scenic coastal
+                trails. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="./images/islandgates.jpeg" class="card-img-top" alt="Package 3" />
+            <div class="card-body">
+              <h5 class="card-title">Island Gates</h5>
+              <!-- <p class="card-text">$700 - 5 Nights</p> -->
+              <p class="card-text">Experience the magic of island life with vibrant culture, and
+                exciting water activities. </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="display-4 mb-5">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card p-4 shadow-sm border-0">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-3 bg-dark text-white text-center">
+    <p>Follow Us:</p>
+    <a rel="noopener noreferrer" href="https://www.facebook.com/" target="_blank" class="text-white me-2">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a rel="noopener noreferrer" href="https://twitter.com/" target="_blank" class="text-white me-2">
+      <i class="bi bi-twitter"></i>
+    </a>
+    <a rel="noopener noreferrer" href="https://www.instagram.com/" target="_blank" class="text-white me-2">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+  </footer>
+  
+   <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
